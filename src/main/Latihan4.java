@@ -31,7 +31,9 @@ public class Latihan4 extends JFrame {
         // Method untuk menutup frame ketika tombol X ditekan
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
+        // Instansiasi JLabel dengan nama labelNama yang diberikan nilai "Form Biodata:" dan diletakan di tengah frame
         JLabel labelHeader = new JLabel("Form Biodata", JLabel.CENTER);
+        // Atur ukuran panjang dan lebar serta posisi x dan y
         labelHeader.setBounds(0, 20, 350, 10);
         
         // Instansiasi JLabel dengan nama labelNama yang diberikan nilai "Nama:"
